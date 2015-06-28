@@ -1,0 +1,112 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Lora', serif;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.main {
+	background-color: rgba(250,250,250,0.6);
+	width: 450px;
+	margin: 0 auto;
+	border-radius: 4% 4%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: bold;
+	text-transform: uppercase;
+	font-family: 'Cinzel', serif;
+	letter-spacing: 5px;
+	text-shadow: 5px 5px 40px white;
+	padding-bottom: 5px;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	text-transform: uppercase;
+	text-decoration: bold;
+	letter-spacing: 5px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+h3 {
+	padding-bottom: 5px;
+	text-decoration: bold;
+	text-transform: uppercase;
+	font-family: 'Cinzel', serif;
+	margin-bottom: 0;
+	cursor: crosshair;
+}
+
+ol {
+	padding-bottom: 5px;
+}
+
+p {
+	padding-bottom: 5px;
+}
+img {
+	width: 300px;
+	border-radius: 20% 20%;
+	display: block;
+	margin: 0 auto 50px;
+	border: 10px solid slategrey;
+	transform: rotate (360deg);
+	transition: all 1000ms;
+}
+
+ul li {
+	float: left;
+	width: 50%;
+}
+ul li a {
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+	border-radius: 0 20px 20px 0;
+}
+ul li:first-child a {
+	border-radius: 20px 0 0 20px;
+}
+
+p,
+ul,
+ol {
+	line-height: 2;
+	list-style: none;
+	padding-left: 0px;
+}
+
+a {
+	color: slategrey;
+	text-decoration: none;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+a:hover {
+	color: white;
+	font-weight: bolder;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
